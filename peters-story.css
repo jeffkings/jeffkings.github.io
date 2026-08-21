@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-section{
+    width: 100%;
+    height: auto;
+    background-color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.headline{
+    width: 100%;
+    height: 20vh;
+    color: aliceblue;
+    background-color: rgb(4, 112, 155);
+    align-items: center;
+    position: fixed;
+    text-align: center;
+    padding: 40px;
+    font-size: 3em;
+}
+.main-content{
+    padding: 7em 2em;
+    width: 100%;
+    font-size: 1.3em;
+}
+h2{
+    color: rgb(4, 112, 155);
+}
+table{
+    width: 100%;
+    margin-top: 1em;
+    padding: 1em;
+    border-collapse: collapse;
+    box-shadow: .005px .005px 20px 1px rgba(100, 89, 89, 0.555);
+
+}
+.heads{
+    background-color: rgba(4, 112, 155, 0.747);
+}
+td{
+    width: 40%;
+    padding: 1em .5em;
+    outline: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.205);
+}
+footer{
+    width: 100%;
+    padding: 1em;
+    background-color: rgb(4, 112, 155);
+    color: aliceblue;
+    text-align: center;
+    font-size: 1em;
+}
